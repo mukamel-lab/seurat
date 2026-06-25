@@ -13,7 +13,7 @@ globalVariables(
 )
 #' Gene expression markers for all identity classes
 #'
-#' Finds markers (differentially expressed genes) for each of the identity classes in a dataset. Note that differential expression between groups (e.g. treatment conditions) should be take into account biological variation across samples, e.g. by using pseudobulk expression profiles. See the vignette "Differential expression testing" for detailed discussion.
+#' Finds markers (differentially expressed genes) for each of the identity classes in a dataset. Note that differential expression between groups (e.g. treatment conditions) should take into account biological variation across samples, e.g. by using pseudobulk expression profiles. See the vignette "Differential expression testing" for detailed discussion.
 #'
 #' @inheritParams FindMarkers
 #' @param node A node to find markers for and all its children; requires
